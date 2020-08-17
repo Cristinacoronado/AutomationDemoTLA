@@ -54,4 +54,14 @@ public class UserMgtPageTest extends BaseTest {
         screenshot.takeScreenshotAndLog();
         userMgtPage.tableRow.isDisplayed();
     }
-}
+    //9. 	- verify filling out the form and clicking Submit button will add data to the table (no need to test actual data values)
+    //10. - verify fields are added to corresponding column:
+    //		First name has firstName, email has emails, role is based on value given while registering the user
+    //11. - verify Clear table button will clear all records from the table
+    //12. - verify Submit table button will clear all records from the table
+
+    public void verifyFormFieldOut() {
+
+
+        }
+    }

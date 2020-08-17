@@ -28,4 +28,6 @@ public class UserMgtPage extends BasePage {
     public String[] registrationFormFields = {"Firstname","Lastname","Email","Phonenumber","Select-role"};
 
 
+
+
 }
